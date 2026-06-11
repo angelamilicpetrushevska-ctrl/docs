@@ -11,7 +11,14 @@
   "navigation": {
     "pages": [
       {
-        "group": "Getting Started",
+        {
+  "group": "Getting Started",
+  "pages": [
+    "index",
+    "quickstart",
+    "umoto-docs"
+  ]
+}"group": "Getting Started",
         "pages": [
           "index",
           "quickstart"
