@@ -1,6 +1,347 @@
 ---
 title: "Umoto Documentation"
-description: "Complete guide to using Umoto"
+description: "Complete guide to using the Umoto garage management platform"
 ---
 
-Welcome to the Umoto documentation.
+## Logging In and Changing Your Password
+
+Log in as a garage manager using the username and password sent to you by Umoto when your account was created.
+
+It is recommended that you change your password. Click on the top right corner, go to **My Account**, and select **Change Password**. You will need to enter the password from the email first, then enter your new password in the two fields below.
+
+---
+
+## Adding Your Working Hours
+
+Go to **Settings → My Garage** and navigate to the working hours section to set your garage's operating schedule.
+
+---
+
+## Adding a Drop-Off Time
+
+Working hours and drop-off times can be configured from the **My Garage** settings page.
+
+---
+
+## Creating Your Workstations
+
+Workstations represent the physical bays or spaces where work is carried out in your garage.
+
+### Managing Workstation Unavailability
+
+You can block out a workstation's availability to prevent jobs from being assigned to it during certain periods.
+
+---
+
+## Adding Your Staff
+
+Go to **Settings → My Garage → Team**.
+
+### Creating a New Team Member
+
+1. On the Team page, click **Create new team member** in the top right.
+2. A drawer will appear asking for the team member's details.
+3. Available roles are: **Manager**, **Technician**, and **Manager-Technician**.
+4. Once all fields are filled in, click **Confirm member**. An invite email with login details will be sent to the new member.
+
+### Editing a Team Member
+
+1. On the Team page, click the **pencil icon** next to the team member you want to edit.
+2. A new page will appear where you can update their details.
+3. Click **Save** to apply changes.
+
+### Deleting a Team Member
+
+1. Locate the team member on the table and click the **bin icon**.
+2. A confirmation message will appear.
+3. Click **OK** to delete the team member.
+
+### Managing Staff Unavailability
+
+To block out a team member's calendar due to sickness, holidays, or different working hours:
+
+1. Go to **My Garage → Team**.
+2. Click the **calendar icon** to the right of the staff member's name.
+3. A screen will appear where you can enter a description, and set the dates and times to block out.
+4. Click **OK** to confirm.
+
+Once marked as unavailable, no job cards can be assigned to that team member during the blocked period.
+
+---
+
+## Adding Your Bank Information
+
+Go to **Settings → My Garage → Bank Account** and fill in the required fields.
+
+> **Important:** Once saved, your bank details cannot be changed by yourself — any changes will need to be made manually by Umoto. Please double-check all details before saving.
+
+---
+
+## Adding a Logo
+
+Go to **Settings → My Garage** and click the upload button next to your garage name. Your logo will be saved automatically. You can update it at any time by returning to the same place.
+
+---
+
+## Adding a Service
+
+1. Go to **Settings → Services** from the side menu.
+2. On the services page, you can select from previously imported services or add a new one from the top right.
+3. To add a custom service, click **+ Add new service**.
+4. To add a new category, select **Add new service category**.
+5. To add a service within that category, select **Add new service**.
+6. Once created, click **Confirm service** to add it to your list.
+
+> If you would like a pre-defined list of services imported, contact the Umoto development team.
+
+### VAT Exempt Services
+
+In most cases, standard MOT test fees are exempt from VAT. To create a VAT exempt service:
+
+1. Create a new service category and service name as above.
+2. On the service creation page, make sure the **Include VAT** toggle is **not ticked**.
+3. You can verify this at the bottom of the page in the cost breakdown — VAT should not appear.
+4. Click **Confirm service** when finished.
+
+### Fixed Services
+
+Fixed Services are predefined packages with a set total price that does not change during the service.
+
+**Key features:**
+- The cost is determined upfront and remains unchanged.
+- Includes well-defined tasks such as oil changes or brake pad replacement.
+- Labour and parts/fluid costs are included in the fixed price with no flexibility to add extras.
+
+**Best for:** Customers who want transparency and predictability in pricing.
+
+**Example:** An oil change package including oil replacement, filter change, and basic inspection for £120.
+
+### Flexible Services
+
+Flexible Services allow real-time price adjustments for labour, parts, and fluids as the work progresses.
+
+**Key features:**
+- Costs can be updated as work progresses to reflect additional parts or labour.
+- Enables accurate pricing for unforeseen repairs or upgrades.
+
+**Best for:** Complex repairs or diagnostics where the full scope of work isn't known upfront.
+
+**Example:** A diagnostic repair starting at £50 for inspection, with additional costs added as required.
+
+---
+
+## Connecting to Your Accounting Software
+
+Click on **Manage Accounting** to see a list of available accounting integrations. Once connected, the platform will appear in the **Added** section.
+
+---
+
+## Adding Customers
+
+### Creating a New Customer
+
+Go to **Customers** in the left menu and click **Create new customer** on the right side of the screen. Fill in the required fields and save.
+
+### Editing a Customer
+
+Go to **Customers**, find the customer, and click the **pencil icon** to the right of their name. Update the details and click **Save changes**.
+
+### Inviting a Customer to the App
+
+Go to **Customers**, click on the customer's name to open their profile, then click **SMS app invite** in the top right corner. An invitation will be sent to them.
+
+### Managing Customer Vehicles (Multiple Vehicles)
+
+Go to **Customers** and click on the customer's name to open their profile. Scroll to the bottom to find the **Registered customer vehicles** dropdown. From there you can view details, reminders, job cards, service history, and maintenance schedules for each vehicle.
+
+---
+
+## Calendar Page
+
+Go to **Calendar** from the side menu.
+
+The calendar displays all upcoming work for your technicians and workstations for the current day.
+
+### Job Card Column
+
+The job card column shows job cards that are ready to be assigned to a technician and workstation. Each card shows:
+
+- Service name (multiple services separated by a comma)
+- Customer name
+- Vehicle registration number
+- Drop-off time
+
+To add a job card to the calendar, click and hold it, then drag it to the appropriate time slot.
+
+### Request Column
+
+The requests tab shows all incoming requests from Umoto mobile app users. Each request card shows:
+
+- Customer name
+- Registration number
+- Requested drop-off date
+- Date and time the request was submitted
+
+### Reviewing a Request
+
+Click on a request card to open a sliding panel with more details. Each request has three tabs:
+
+- **Tab 1:** Information to help you create the job card, including the requested drop-off time (which you can change), a **While you wait** toggle, and an **Estimate approval required** toggle.
+- If a customer has requested an estimate, the estimate toggle will be switched on automatically.
+- Job cards sent as estimates will not appear on the calendar until the customer approves them, but will be visible on the Job cards page with an **Approval** status.
+
+### Changing Calendar View
+
+You can switch between a **Technician view** and a **Workstation view** by clicking the preferred option above the calendar.
+
+You can also switch between **Day**, **Week**, and **Month** display modes.
+
+### Working on Job Cards from the Calendar
+
+When assigning a job card, you will be asked to confirm the drop-off time and whether to send a mobile app notification to the customer. Click **Save** to add the job card to the calendar.
+
+Each job card on the calendar includes:
+
+- **Job card details:** Change status, assign workstation or technician, add mileage, reschedule drop-off or job time.
+- **Customer and vehicle section:** General info about the customer and vehicle.
+- **Invoice section:** Displays one of four states — no invoice, service completed, invoice generated but unpaid, or invoice paid.
+
+---
+
+## Job Card Tabs
+
+Job card tabs are visible when opening a job card from the calendar or the job cards page.
+
+### Job Details
+
+View and edit the services, parts, and fluids within the job card.
+
+### Reminders
+
+View reminder categories that send automated reminders to customers. A red notification icon appears if a service is due for that vehicle.
+
+**Interval months logic:** Today's date + inputted interval months = next service date.
+
+**Interval mileage logic:** Input the difference in mileage between the current reading and the next due mileage. The system calculates the due date based on average distance covered per month. The due date is whichever comes first — months or mileage.
+
+> Reminders must be updated one at a time. Only the reminder you have updated will be saved — all other unsaved changes will be lost.
+
+### History Logs
+
+Displays a log of all actions taken on a job card, including who made the change and when.
+
+### Customer and Vehicle Details
+
+Shows customer and vehicle information in more detail.
+
+### Related Work
+
+Allows you to create and view job cards connected to the current one. Click **Create separate booking** to create a new linked job card for the same customer and vehicle.
+
+### Service History
+
+Displays a table of all recorded service history for that vehicle across the Umoto portal, including date, service type, and mileage.
+
+- If the service was performed by your garage, the view icon opens an edit modal (editable for 30 days).
+- If viewed by a non-servicing garage, the icon opens a read-only browser view with a print option.
+
+### Servicing and Repairs
+
+Provides vehicle-specific guides on how to perform repairs, fit replacements, and carry out procedures. Users can bookmark procedures to save them in the Bookmarks tab.
+
+### Notes
+
+Use the notes section to store internal communications, images, videos, and documents for a specific job.
+
+- On the left, add or view internal notes for your staff. Each note shows the name, date, and description. The author can edit their note.
+- On the right, customer notes submitted through the mobile app are displayed.
+- Below, all users can upload images, videos, and documents related to the job.
+
+### Chat
+
+Communicate directly with the customer if they have the Umoto mobile app. You can share photos, videos, and documents. Each chat is linked to a job card — messages cannot be sent without an active booking.
+
+### Bookmarks
+
+Displays all items bookmarked from the Servicing and Repairs tab for quick access.
+
+---
+
+## Umoto Job Card Statuses
+
+| Status | Description |
+|---|---|
+| **To do** | Work has not yet started. Job card appears in the calendar column. |
+| **To do – Parts not ordered** | Same as above, but visually indicates parts haven't been ordered. |
+| **To do – Parts ordered** | Parts have been ordered but not yet arrived. |
+| **To do – Ready to go** | Parts have arrived and work can begin. |
+| **In progress** | Work has started. The customer is notified via the mobile app. |
+| **On hold** | There is an issue with the work that needs attention. |
+| **Cancelled** | Job card is removed from the calendar. The customer is notified. |
+| **Service completed** | Work is done. Technician is prompted to add mileage and record service history. Invoices can only be generated at this status. |
+| **Ready for payment** | Invoice has been generated but not yet paid. |
+| **Paid** | Invoice has been paid. |
+
+---
+
+## Creating a Booking
+
+You can create a booking in two ways:
+
+1. Click the **New Booking** button visible across all pages in the portal.
+2. From a request in the calendar.
+
+### From the New Booking Button
+
+A sliding modal will appear. Start by entering the vehicle's registration number and clicking **Search**. Umoto will fetch vehicle data automatically. If data cannot be found, you will be asked to enter it manually. If the data is incorrect, you can search by VIN number instead.
+
+Once the vehicle is confirmed, click **Next** and add the customer. You can search for an existing customer or create a new one from this step.
+
+After selecting the customer, you can view their service history and upcoming reminders.
+
+On the next tab, add the drop-off date and time, select whether the customer will be waiting, and choose whether to send the job as an estimate (only available for mobile app users).
+
+Finally, add the services and parts for the job card. You can search your pre-created services from the dropdown. You can also create an additional job card for the same customer and vehicle by clicking **Confirm this job card and add another**.
+
+---
+
+## Creating Service History
+
+After moving a job card to **Service completed**, you will be prompted to add mileage (mandatory) and optionally record service history.
+
+Once submitted, service history is visible on the customer's profile and on all job cards for that vehicle.
+
+To edit service history, go to the **Service history** tab and click the eye icon in the actions column. Edits are available for one month after submission. After that, changes must be made by contacting Umoto support.
+
+---
+
+## Invoices
+
+### Generating an Invoice
+
+Invoices can only be generated for job cards with the status **Service completed**. You can generate an invoice from within the job card, or from the job cards page by selecting one or more completed job cards and clicking **Generate invoice**.
+
+### Making Payments
+
+Payments can be logged from multiple places:
+
+- From within a job card with the status **Ready for payment**, click the **Pay** button.
+- From the Invoices page, click **Pay invoice** or the green **Pay** button at the top.
+
+Once clicked, a modal appears with key invoice details and options to log a cash payment or a POS transaction (if you have a Umoto PDQ).
+
+### Voiding an Invoice
+
+Voiding is only available if no payments have been made. The **Void** button appears at the bottom of the invoice page, next to **Pay invoice**.
+
+### Refunds and Credit Notes
+
+Once a payment is made, it is displayed in the bottom left, listed from oldest to newest.
+
+To issue a credit note or refund, click the **Credit/Refund** button (in the same position as the void button). A modal will open where you can allocate credit to the invoice.
+
+If the credit equals the remaining balance, you will be asked whether to issue a refund. If the refund toggle is on and the modal is saved, the invoice will move to **Paid** status. If proceeding with a refund, you will need to allocate which services the funds are being refunded for.
+
+### Informing the Customer to Pick Up
+
+When an invoice is generated, you can notify the customer to collect their vehicle from within the invoice details page, or from the invoices page.
